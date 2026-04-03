@@ -44,6 +44,35 @@ Things to be implemented not in the C# version (maybe):
 - Parent images
 - Data positioning measurements
 
+## Licensing
+
+libaaruformat is dual-licensed:
+
+- **libaaruformat** (full read/write) — [LGPL 2.1](LICENSE)
+- **libaaruformatread** (read-only) — [MIT](LICENSE-MIT)
+
+The read-only library enables integration into software with any license,
+while the LGPL writer preserves format integrity by keeping the write path
+under a single, well-maintained implementation.
+
+## Contributing & Collaboration
+
+libaaruformat is the reference implementation of the AaruFormat disc image
+specification. Keeping the ecosystem compatible is important — fragmentation
+in how images are written could lead to subtle incompatibilities that harm
+long-term preservation.
+
+If you're building on this library, we encourage you to:
+
+- **Report bugs and edge cases** — even if you work around them locally,
+  upstream fixes benefit everyone.
+- **Contribute fixes back** — pull requests keep the reference implementation
+  strong and reduce divergence.
+- **Discuss format questions** — if the spec is unclear or you need a feature,
+  open an issue before implementing your own extension.
+- **Use the reader library** for integration — it gives you a well-tested
+  starting point and a natural path for improvements to flow upstream.
+
 ## Building and Testing
 
 ### Standard Build
