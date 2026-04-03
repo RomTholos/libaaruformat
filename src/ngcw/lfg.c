@@ -2,21 +2,11 @@
  * This file is part of the Aaru Data Preservation Suite.
  * Copyright (c) 2019-2026 Natalia Portillo.
  *
- * This library is free software; you can redistribute it and/or modify
- * it under the terms of the GNU Lesser General Public License as
- * published by the Free Software Foundation; version 2.1 of the License.
+ * SPDX-License-Identifier: MIT OR LGPL-2.1-or-later
  *
- * This library is distributed in the hope that it will be useful, but
- * WITHOUT ANY WARRANTY; without even the implied warranty of
- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
- * Lesser General Public License for more details.
- *
- * You should have received a copy of the GNU Lesser General Public
- * License along with this library; if not, see
- * <https://www.gnu.org/licenses/>.
- *
- * Lagged Fibonacci Generator for Nintendo GameCube/Wii junk fill.
- * Based on Dolphin emulator's LaggedFibonacciGenerator (CC0 licensed).
+ * This file is dual-licensed. You may use, modify, and distribute it under
+ * either the terms of the MIT license (see LICENSE-MIT) or the GNU Lesser
+ * General Public License v2.1 or later (see LICENSE), at your option.
  */
 
 #include "lfg.h"
